@@ -3,9 +3,9 @@
     "id": { "int": { "min": 0, "max": 1000000 } },
     "name": { "string": {} },
     "jobTitle": { "string": {} },
-    "country": { "string": {} },
+    "country": { "string": ["Germany", "Italy", "France"] },
     "salary": { "int": { "min": 0, "max": 1000000 } },
-    "currency": { "string": {} },
-    "employment": { "string": {} }
+    "currency": { "string": ["EUR", "AUD"] },
+    "employment": { "string": ["employee", "contractor"] }
   }
 }
